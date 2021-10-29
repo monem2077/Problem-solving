@@ -8,4 +8,4 @@ let binary_search = function (nums, target, low = 0, high = nums.length - 1) {
     else return binary_search(nums, target, low, pivot - 1);
 }
 
-console.log(binary_search([-1,0,3,5,9,12], 2))
+console.log(binary_search([1,3,5,9,12], 0))
